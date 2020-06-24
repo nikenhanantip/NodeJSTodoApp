@@ -4,7 +4,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const swaggerUi = require('swagger-ui-express'),
     swaggerDocument = require('./swagger.json');
-const port = config.PORT || '3000';
+const port = config.PORT;
 const app = express();
 
 // Database configuration
