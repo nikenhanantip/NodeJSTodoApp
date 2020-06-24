@@ -1,10 +1,10 @@
 require('dotenv').config();
-
+const config = require('./todo-api/config/config');
 const express = require('express');
 const bodyParser = require('body-parser');
 const swaggerUi = require('swagger-ui-express'),
     swaggerDocument = require('./swagger.json');
-const port = process.env.PORT || '3000';
+const port = config.PORT || '3000';
 const app = express();
 
 // Database configuration
