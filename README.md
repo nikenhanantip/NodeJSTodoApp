@@ -38,6 +38,11 @@ Open the terminal, go to the directory NodeJSTodoApp
 $ cd NodeJSTodoApp
 ```
 
+Install all the dependencies
+```
+$ npm install
+```
+
 Run the application in the `index.js` file with custom script, server will run in port `3000`
 ```
 $ npm start
