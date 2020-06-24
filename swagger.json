@@ -8,13 +8,14 @@
       "email": "NikenHananti.Puspasari@mitrais.com"
     }
   },
-  "host": "localhost:3000",
+  "host": "nodejs-todo-app001.herokuapp.com",
   "tags": [
     {
       "name": "TodoController"
     }
   ],
   "schemes": [
+    "https",
     "http"
   ],
   "paths": {
