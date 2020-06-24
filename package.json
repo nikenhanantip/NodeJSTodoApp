@@ -6,7 +6,7 @@
   "scripts": {
     "coverage": "nyc npm run test",
     "dev": "cross-env NODE_ENV=development nodemon index.js",
-    "start": "cross-env NODE_ENV=production node index.js",
+    "start": "NODE_ENV=production node index.js",
     "test": "mocha todo-api/__tests__/**/*.acceptance.js --timeout 100000 --exit"
   },
   "repository": {
